@@ -132,9 +132,4 @@ class LinkedList {
     }
 }
 
-const list = new LinkedList()
-list.append("Fish")
-list.append("Dog")
-
-console.log("List", list);
-console.log("List", list.toString());
+export default LinkedList
